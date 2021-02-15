@@ -1,0 +1,84 @@
+.Business {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px 10px;
+  margin-bottom: 6rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.Loading {
+  padding: 1rem;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--secondary-font);
+}
+
+.Loading h1 {
+  color: var(--primary-blue);
+}
+
+.Loading h1,
+.Loading h3 {
+  text-align: center;
+}
+
+.Image {
+  width: 100%;
+}
+
+.Title {
+  font-size: 2.5rem;
+  color: var(--primary-blue);
+  padding: 0 1rem;
+  font-family: var(--primary-font);
+}
+
+.Link {
+  display: block;
+  font-size: 1.3rem;
+  padding: 1rem;
+  font-family: var(--secondary-font);
+  color: #000000;
+  transition: var(--transition);
+}
+
+.Link:hover {
+  color: var(--primary-blue);
+}
+
+.Point {
+  width: 0.7rem;
+  height: 0.7rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+  margin-right: 0.8rem;
+}
+
+.Services {
+  padding: 0 3rem;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .Business {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Text {
+    font-size: 1.4rem;
+  }
+}

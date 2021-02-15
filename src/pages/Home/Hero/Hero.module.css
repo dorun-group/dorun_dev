@@ -1,0 +1,74 @@
+.Hero {
+  margin-top: 2rem;
+}
+
+.Hero h1 {
+  padding: 0 2rem;
+  font-size: 2.3rem;
+  font-family: var(--primary-font);
+}
+
+.Blue {
+  color: var(--primary-blue);
+}
+
+.Para {
+  padding: 1rem 2rem;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  text-align: start;
+}
+
+.Button {
+  cursor: pointer;
+  border-radius: 30px;
+  margin: 0 2rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  font-family: var(--secondary-font);
+  transition: var(--transition);
+  border: none;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+.Button:hover {
+  color: var(--primary-blue);
+  background-color: #ffffff;
+  border: 1px solid var(--primary-blue);
+}
+
+@media (min-width: 768px) {
+  .Hero h1 {
+    font-size: 2.8rem;
+  }
+  .Para {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Hero h1 {
+    font-size: 3.3rem;
+  }
+  .Para {
+    font-size: 1.6rem;
+  }
+  .Button {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Hero h1 {
+    font-size: 3.8rem;
+  }
+  .Para {
+    font-size: 1.9rem;
+  }
+}

@@ -1,0 +1,104 @@
+.Navbar {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--secondary-font);
+  background: #ffffff;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks_Container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+}
+
+.logo {
+  height: 90px;
+  width: 180px;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.hamburger:hover {
+  color: var(--primary-blue);
+  transform: scale(1.3);
+}
+
+.navLinks {
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks a:hover {
+  color: var(--primary-blue);
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .logo {
+    height: 100px;
+    width: 200px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .navLinks {
+    display: flex;
+  }
+  .navLinks li {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Navbar {
+    height: 120px;
+  }
+  .container {
+    width: 992px;
+  }
+  .logo {
+    height: 120px;
+    width: 240px;
+  }
+  .navLinks li {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Navbar {
+    height: 140px;
+  }
+  .container {
+    width: 1200px;
+  }
+  .logo {
+    height: 140px;
+    width: 280px;
+  }
+  .navLinks li {
+    font-size: 1.6rem;
+  }
+}

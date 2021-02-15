@@ -1,0 +1,50 @@
+.Line {
+  width: 100%;
+  height: 2px;
+  background: var(--primary-blue);
+  margin: 1rem 0;
+}
+.Section {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Heading {
+  padding: 0 2rem;
+  font-size: 2rem;
+  font-family: var(--secondary-font);
+}
+
+.Image {
+  width: 100%;
+}
+
+.Image:hover {
+  transform: scale(0.9);
+  transition: var(--transition);
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .Heading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Section {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+  .Heading {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Heading {
+    font-size: 2.9rem;
+  }
+}

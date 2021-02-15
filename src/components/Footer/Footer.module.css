@@ -1,0 +1,54 @@
+.Grey {
+  background-color: #ccc;
+  padding: 2rem;
+}
+
+.Grey span {
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+.Connect {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-family: var(--primary-font);
+  color: #000000;
+}
+
+.SocialLink {
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.Footer {
+  background: #ccc;
+  font-family: var(--secondary-font);
+  padding: 2rem;
+  text-align: center;
+}
+
+.Email {
+  font-size: 1rem;
+  font-family: var(--secondary-font);
+}
+
+.Footer a {
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+.Footer a:hover {
+  color: #000000;
+}
+
+.Text {
+  font-size: 1rem;
+  padding: 0.2rem;
+  font-family: var(--secondary-font);
+  display: flex;
+  align-items: center;
+}
+
+.Text p {
+  margin-left: 1rem;
+}
