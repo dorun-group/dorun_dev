@@ -12,7 +12,7 @@
 
 .Heading {
   padding: 0 2rem;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-family: var(--secondary-font);
 }
 
@@ -28,7 +28,7 @@
 
 @media (min-width: 768px) {
   .Heading {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 }
 
@@ -39,12 +39,12 @@
     grid-column-gap: 10px;
   }
   .Heading {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
 }
 
 @media (min-width: 1200px) {
   .Heading {
-    font-size: 2.9rem;
+    font-size: 2.6rem;
   }
 }

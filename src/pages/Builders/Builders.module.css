@@ -31,7 +31,7 @@
 }
 
 .Title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: var(--primary-blue);
   padding: 0 1rem;
   font-family: var(--primary-font);
@@ -52,12 +52,12 @@
   }
 
   .Text {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 
 @media (min-width: 1200px) {
   .Text {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
