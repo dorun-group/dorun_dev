@@ -10,6 +10,7 @@ export const AppProvider = ({ children }) => {
   const [message, setMessage] = useState({
     name: "",
     email: "",
+    number: "",
     text: "",
   });
   const [isError, setIsError] = useState(false);
@@ -39,6 +40,16 @@ export const AppProvider = ({ children }) => {
       return;
     }
 
+    if (message.number.length > 10 || message.number.length < 10) {
+      setIsError(true);
+      setError("Please provide a valid contact number");
+      setTimeout(() => {
+        setIsError(false);
+        setError("");
+      }, 3000);
+      return;
+    }
+
     setIsError(false);
     let templateParams = {
       to_email: message.email,
@@ -47,6 +58,7 @@ export const AppProvider = ({ children }) => {
     let messageParams = {
       from_name: message.name,
       from_email: message.email,
+      from_contact: message.number,
       from_message: message.text,
     };
 
@@ -72,7 +84,7 @@ export const AppProvider = ({ children }) => {
     );
 
     setMessage((oldState) => {
-      return { ...oldState, name: "", email: "", text: "" };
+      return { ...oldState, name: "", email: "", number: "", text: "" };
     });
     setIsError(true);
     setError(`Hey ${message.name}, we have sent you an email`);

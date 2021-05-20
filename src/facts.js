@@ -1,7 +1,7 @@
 export const poly_facts = [
   "Dorun Group is based in Thrissur, Kerala.",
   "Dorun was founded by Bastin Ainikkal and Vinod Kumar!",
-  "Dorun Group is PAN India supplier of PPE Granules.",
+  "Dorun Group is PAN India manufacturer of PPE Granules.",
 ];
 
 export const builders_facts = [

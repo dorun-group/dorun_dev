@@ -6,14 +6,8 @@ import Footer from "../../components/Footer/Footer";
 import classes from "./Contact.module.css";
 
 const Contact = () => {
-  const {
-    setPath,
-    message,
-    setMessage,
-    handleSubmit,
-    isError,
-    error,
-  } = useGlobalContext();
+  const { setPath, message, setMessage, handleSubmit, isError, error } =
+    useGlobalContext();
 
   const [word, setWord] = useState("Say Hi!");
 
@@ -45,6 +39,16 @@ const Contact = () => {
             value={message.email}
             onChange={(e) => {
               setMessage({ ...message, email: e.target.value });
+            }}
+          />
+          <input
+            name="contact"
+            className={classes.Input}
+            placeholder="contact number (required)"
+            type="text"
+            value={message.number}
+            onChange={(e) => {
+              setMessage({ ...message, number: e.target.value });
             }}
           />
           <textarea

@@ -44,10 +44,10 @@ const Corporate = () => {
                 <p className={classes.Text}>
                   Dorun Group is a young venture, founded by two young
                   visionaries Bastin Ainikkal and Vinod Kumar. Dorun is PAN
-                  India supplier of poly-plast products, world class Builders
-                  and Developers and best in the market Real-estate brokers. Our
-                  clients can provide testimonials on the values we uphold, ie.
-                  trust and hardwork.
+                  India manufacturer of poly-plast products, world class
+                  Builders and Developers and best in the market Real-estate
+                  brokers. Our clients can provide testimonials on the values we
+                  uphold, ie. trust and hardwork.
                 </p>
               </div>
             </div>
