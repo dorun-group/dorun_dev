@@ -16,8 +16,8 @@
 }
 
 .SocialLink {
-  color: #0414f5;
-  margin-top: 1rem;
+  color: var(--primary-blue);
+  margin: 1rem 0.3rem;
 }
 
 .Footer {

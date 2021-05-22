@@ -1,7 +1,11 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import { IconContext } from "react-icons";
-import { FaFacebookF, FaAddressCard } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaAddressCard,
+  FaInstagramSquare,
+} from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { HiOutlineMail } from "react-icons/hi";
 
@@ -42,7 +46,18 @@ const Footer = () => {
           <IconContext.Provider
             value={{ size: "40px", className: classes.SocialLink }}
           >
-            <FaFacebookF />
+            <FaFacebookSquare />
+          </IconContext.Provider>
+        </a>
+        <a
+          href="https://instagram.com/dorungroup/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconContext.Provider
+            value={{ size: "40px", className: classes.SocialLink }}
+          >
+            <FaInstagramSquare />
           </IconContext.Provider>
         </a>
       </div>
