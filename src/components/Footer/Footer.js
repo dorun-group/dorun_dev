@@ -1,13 +1,11 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import { IconContext } from "react-icons";
-import {
-  FaFacebookSquare,
-  FaAddressCard,
-  FaInstagramSquare,
-} from "react-icons/fa";
+import { FaAddressCard } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 import { HiOutlineMail } from "react-icons/hi";
+import instagram from "../../assets/instagram.png";
+import facebook from "../../assets/facebook.png";
 
 const Footer = () => {
   return (
@@ -42,23 +40,27 @@ const Footer = () => {
           href="https://facebook.com/DORUN-GROUP-103547858402781/"
           target="_blank"
           rel="noreferrer"
+          className={classes.SocialLink}
         >
-          <IconContext.Provider
+          {/* <IconContext.Provider
             value={{ size: "40px", className: classes.SocialLink }}
           >
             <FaFacebookSquare />
-          </IconContext.Provider>
+          </IconContext.Provider> */}
+          <img src={facebook} alt="facebook logo" className={classes.Icon} />
         </a>
         <a
           href="https://instagram.com/dorungroup/"
           target="_blank"
           rel="noreferrer"
+          className={classes.SocialLink}
         >
-          <IconContext.Provider
+          {/* <IconContext.Provider
             value={{ size: "40px", className: classes.SocialLink }}
           >
             <FaInstagramSquare />
-          </IconContext.Provider>
+          </IconContext.Provider> */}
+          <img src={instagram} alt="instagram logo" className={classes.Icon} />
         </a>
       </div>
       <div className={`Container ${classes.Footer}`}>
