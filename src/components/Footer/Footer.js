@@ -33,7 +33,7 @@ const Footer = () => {
           <IconContext.Provider value={{ size: "30px" }}>
             <HiOutlineMail />
           </IconContext.Provider>
-          <p>dorungroup@gmail.com</p>
+          <p>connectdorun@gmail.com</p>
         </p>
         <h1 className={classes.Connect}>CONNECT</h1>
         <a

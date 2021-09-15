@@ -42,7 +42,7 @@ const Corporate = () => {
               <div>
                 <h1 className={classes.Title}>About Us</h1>
                 <p className={classes.Text}>
-                  Dorun Group is a young venture, founded by two young
+                  Dorun Group is a young venture, founded by two
                   visionaries Bastin Ainikkal and Vinod Kumar. Dorun is PAN
                   India manufacturer of poly-plast products, world class
                   Builders and Developers and best in the market Real-estate

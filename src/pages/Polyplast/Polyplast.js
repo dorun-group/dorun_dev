@@ -39,10 +39,8 @@ const Polyplast = () => {
             <div>
               <h1 className={classes.Title}>Dorun Polyplast</h1>
               <p className={classes.Text}>
-                Our product range includes a wide range of Plastic Granules such
-                as Polypropylene Granule(PP), High Density Polyethylene (HDPE)
-                Granules, Low Density Polyethylene (LDPE), Acrylonitrile
-                Butadiene Styrene (ABS), Nylon 6 & 66 Granules, EVA Granules and
+                Our product range includes a wide range of Plastic Chips and Scraps such
+                as Polypropylene-PP (white, natural, black, etc), High Density Polyethylene (HDPE), Low Density Polyethylene (LDPE), Acrylonitrile Butadiene Styrene (ABS), EVA, PET bottles, variety of cover materials and
                 many more items.
               </p>
             </div>

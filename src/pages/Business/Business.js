@@ -45,12 +45,13 @@ const Business = () => {
                 <div className={classes.Point}></div>Dorun Polyplast
               </Link>
               <div className={classes.Services}>
-                <p>Polypropylene(PP) Granules</p>
-                <p>High Density Polyethylene (HDPE) Granules</p>
-                <p>Low Density Polyethylene (LDPE) Granules</p>
-                <p>Acrylonitrile Butadiene Styrene (ABS) Granules</p>
-                <p>Nylon 6 & 66 Granules</p>
-                <p>EVA Granules</p>
+                <p>Polypropylene-PP (white, natural, black etc) Chips and Scraps</p>
+                <p>High Density Polyethylene (HDPE) Chips and Scraps</p>
+                <p>Low Density Polyethylene (LDPE) Chips and Scraps</p>
+                <p>Acrylonitrile Butadiene Styrene (ABS) Chips and Scraps</p>
+                <p>EVA Chips and Scraps</p>
+                <p>PET Bottles</p>
+                <p>Variety of Cover Materials</p>
               </div>
               <Link to="/builders" className={classes.Link}>
                 <div className={classes.Point}></div>Dorun Builders & Developers
