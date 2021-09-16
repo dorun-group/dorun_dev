@@ -23,9 +23,9 @@ const Footer = () => {
             <FaAddressCard />
           </IconContext.Provider>
           <p>
-            Building 55/534,
+            Dorun Group,
             <br />
-            Puthurkkara, Ayyanthole. <br /> Thrissur, Kerala.
+            #49 Kiraloor, <br /> Near Vellakode Canal. <br /> Mundur S O <br /> Thrissur - 680 541 <br /> Kerala.
           </p>
         </p>
         <br />
@@ -33,7 +33,7 @@ const Footer = () => {
           <IconContext.Provider value={{ size: "30px" }}>
             <HiOutlineMail />
           </IconContext.Provider>
-          <p>connectdorun@gmail.com</p>
+          <p>dorungroup@gmail.com</p>
         </p>
         <h1 className={classes.Connect}>CONNECT</h1>
         <a
