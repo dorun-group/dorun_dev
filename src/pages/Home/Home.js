@@ -4,6 +4,7 @@ import { useGlobalContext } from "../../context";
 import Slider from "./Slider/Slider";
 import Hero from "./Hero/Hero";
 import Sector from "./Sector/Sector";
+import Testimonials from "./Testimonials/Testimonials";
 import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
       <Slider />
       <Hero />
       <Sector />
-      <h1>Testimonials</h1>
+      <Testimonials />
       <Footer />
     </div>
   );
