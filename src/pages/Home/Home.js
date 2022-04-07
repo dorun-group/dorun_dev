@@ -5,6 +5,7 @@ import Slider from "./Slider/Slider";
 import Hero from "./Hero/Hero";
 import Sector from "./Sector/Sector";
 import Testimonials from "./Testimonials/Testimonials";
+import Certifications from "./Certifications/Certifications";
 import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <Hero />
       <Sector />
       <Testimonials />
+      <Certifications />
       <Footer />
     </div>
   );
